@@ -1,0 +1,16 @@
+[package]
+name = "proofofhumanity"
+version = "1.0.0"
+authors = []
+
+[addresses]
+addr ="0x4908ec53a78dfb5ba1aac28f3b8606ac278d3e10aa8dfbec7640357b2e552e9d"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
